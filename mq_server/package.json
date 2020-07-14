@@ -1,0 +1,37 @@
+{
+  "name": "mq_server",
+  "version": "1.0.0",
+  "description": "rabbitmq node.js",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.3",
+    "aws-sdk": "^2.415.0",
+    "body-parser": "^1.18.3",
+    "config": "^3.0.1",
+    "crypto": "^1.0.1",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "imageinfo": "^1.0.4",
+    "ioredis": "^4.16.1",
+    "jsonwebtoken": "^8.4.0",
+    "moment": "^2.24.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^1.18.7",
+    "redis": "^2.8.0",
+    "redis-connection-pool": "^1.7.2",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^5.2.0",
+    "nock": "^10.0.4",
+    "rewire": "^4.0.1",
+    "supertest": "^3.3.0"
+  }
+}
